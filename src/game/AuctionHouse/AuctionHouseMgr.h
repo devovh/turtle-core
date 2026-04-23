@@ -28,7 +28,7 @@
 #include "Common.h"
 #include "SharedDefines.h"
 #include "Policies/Singleton.h"
-#include "DBCStructure.h"
+#include "Database/DBCStructure.h"
 #include "Log.h"
 
 class Item;

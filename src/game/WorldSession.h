@@ -28,11 +28,11 @@
 #include "Common.h"
 #include "SharedDefines.h"
 #include "ObjectGuid.h"
-#include "AuctionHouseMgr.h"
-#include "Item.h"
+#include "AuctionHouse/AuctionHouseMgr.h"
+#include "Objects/Item.h"
 #include "GossipDef.h"
 #include "MapNodes/AbstractPlayer.h"
-#include "WhisperTargetLimits.h"
+#include "Chat/WhisperTargetLimits.h"
 #include "Analysis/AccountAnalyser.hpp"
 
 

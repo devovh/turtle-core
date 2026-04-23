@@ -29,8 +29,8 @@
 #include "ObjectGuid.h"
 #include "Camera.h"
 #include "SharedDefines.h"
-#include "SpellDefines.h"
-#include "DBCEnums.h"
+#include "Spells/SpellDefines.h"
+#include "Database/DBCEnums.h"
 #include "Utilities/EventProcessor.h"
 #include "DynamicVisibilityMgr.h"
 
@@ -38,7 +38,7 @@
 #include <string>
 #include <array>
 
-#include "MoveSpline.h"
+#include "Movement\spline\MoveSpline.h"
 
 #define CONTACT_DISTANCE 0.5f
 #define INTERACTION_DISTANCE 5.0f

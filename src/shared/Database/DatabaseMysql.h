@@ -31,7 +31,7 @@
 #ifdef WIN32
 #include <winsock2.h>
 #endif
-#include <mysql.h>
+#include <..\..\..\dep\windows\include\mysql\mysql.h>
 
 #if MYSQL_VERSION_ID >= 80000
 typedef char my_bool;

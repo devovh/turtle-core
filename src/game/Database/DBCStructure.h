@@ -24,9 +24,9 @@
 
 #include "Common.h"
 #include "DBCEnums.h"
-#include "Path.h"
+#include "Maps/Path.h"
 #include "Platform/Define.h"
-#include "SpellClassMask.h"
+#include "Spells/SpellClassMask.h"
 
 #include <map>
 #include <set>

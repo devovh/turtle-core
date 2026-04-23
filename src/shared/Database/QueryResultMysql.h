@@ -29,7 +29,7 @@
 #ifdef WIN32
 #include <winsock2.h>
 #endif
-#include <mysql.h>
+#include <..\..\..\dep\windows\include\mysql\mysql.h>
 
 class QueryResultMysql : public QueryResult
 {

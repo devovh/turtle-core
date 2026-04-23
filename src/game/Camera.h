@@ -23,7 +23,7 @@
 #define MANGOSSERVER_CAMERA_H
 
 #include "Common.h"
-#include "GridDefines.h"
+#include "Maps/GridDefines.h"
 
 class ViewPoint;
 class WorldObject;

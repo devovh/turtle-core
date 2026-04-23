@@ -34,7 +34,7 @@
 #include "ObjectGuid.h"
 #include "MapNodes/AbstractPlayer.h"
 #include "WorldPacket.h"
-#include "Opcodes.h"
+#include "Protocol/Opcodes.h"
 #include "Utilities/robin_hood.h"
 
 //#include "Creature.h"
