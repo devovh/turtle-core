@@ -617,7 +617,7 @@ bool AuthSocket::_HandleLogonChallenge()
                     pkt.append(VersionChallenge.data(), VersionChallenge.size());
 
                     // figure out whether we need to display the PIN grid
-                    promptPin = locked; // always prompt if the account is IP locked & 2FA is enabled
+                    /*promptPin = locked; // always prompt if the account is IP locked & 2FA is enabled
 
                     if ((!locked && ((lockFlags & ALWAYS_ENFORCE) == ALWAYS_ENFORCE)) || _geoUnlockPIN)
                     {
@@ -647,8 +647,8 @@ bool AuthSocket::_HandleLogonChallenge()
                         }
                         else
                             promptPin = true;
-                    }
-
+                    }*/
+                    promptPin = false;
                     if (promptPin)
                     {
                         BASIC_LOG("[AuthChallenge] Account '%s' using IP '%s' requires PIN authentication", _login.c_str(), get_remote_address().c_str());
@@ -873,7 +873,7 @@ bool AuthSocket::_HandleLogonProof()
     M.SetBinary(sha.GetDigest(), 20);
 
     ///- Check PIN data is correct
-    bool pinResult = true;
+    /*bool pinResult = true;
 
     if (promptPin && !lp.securityFlags)
         pinResult = false; // expected PIN data but did not receive it
@@ -914,8 +914,8 @@ bool AuthSocket::_HandleLogonProof()
             pinResult = false;
             sLog.outError("[ERROR] Invalid PIN flags set for user %s - user cannot log-in until fixed", _login.c_str());
         }
-    }
-
+    }*/
+    bool pinResult = true;
     ///- Check if SRP6 results match (password is correct), else send an error
     if (!memcmp(M.AsByteArray().data(), lp.M1, 20) && pinResult)
     {
@@ -1342,7 +1342,7 @@ bool AuthSocket::_HandleXferAccept()
 /// Verify PIN entry data
 bool AuthSocket::VerifyPinData(uint32 pin, const PINData& clientData)
 {
-    // remap the grid to match the client's layout
+    /*// remap the grid to match the client's layout
     std::vector<uint8> grid { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
     std::vector<uint8> remappedGrid(grid.size());
 
@@ -1408,19 +1408,21 @@ bool AuthSocket::VerifyPinData(uint32 pin, const PINData& clientData)
     sha.Finalize();
     hash.SetBinary(sha.GetDigest(), sha.GetLength());
 
-    return !memcmp(hash.AsDecStr(), clientHash.AsDecStr(), 20);
+    return !memcmp(hash.AsDecStr(), clientHash.AsDecStr(), 20);*/
+	return true;
 }
 
 bool AuthSocket::ValidateToken(std::string const& secretString, PINData& data)
 {
-    time_t now = time(nullptr);
+    /*time_t now = time(nullptr);
     uint32 pin1 = GenerateToken(secretString, now - 30), pin2 = GenerateToken(secretString, now), pin3 = GenerateToken(secretString, now + 30);
 
     return (
         (VerifyPinData(pin1, data)) ||
         (VerifyPinData(pin2, data)) ||
         (VerifyPinData(pin3, data))
-        );
+        );*/
+		return true;
 }
 
 void AuthSocket::InitPatch()
