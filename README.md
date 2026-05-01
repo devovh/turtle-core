@@ -7,3 +7,7 @@ Torrent Final Leak and Git History (~240 GB):
 Terabox (ZIP Format ~100GB) Final Leak & Git History:
 
 1.https://1024terabox.com/s/1jRPdHUdVzbHycfGZ_jR7Fg
+
+Misc (Client and Patch's):
+
+1.https://github.com/devovh/turtle-core/releases/tag/Patch's
