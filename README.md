@@ -11,3 +11,15 @@ Terabox (ZIP Format ~100GB) Final Leak & Git History:
 Misc (Client and Patch's):
 
 1.https://github.com/devovh/turtle-core/releases/tag/Patch's
+
+Client (The most suitable and fully functional client for this source is):
+
+1.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_client_fixed.part1.rar
+
+2.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_client_fixed.part2.rar
+
+3.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_client_fixed.part3.rar
+
+4.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_client_fixed.part4.rar
+
+5.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_client_fixed.part5.rar
