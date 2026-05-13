@@ -14,6 +14,10 @@ Misc (Client and Patch's):
 
 Client 1.17.1 (The most suitable and fully functional client for this source is):
 
+I added clean files from a clean client and patched wow.exe, which resulted in 2 detections, but they are harmless:
+
+***https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_wow.exe_clean.rar
+
 1.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_client_fixed.part1.rar
 
 2.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_client_fixed.part2.rar
