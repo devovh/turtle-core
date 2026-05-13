@@ -12,7 +12,7 @@ Misc (Client and Patch's):
 
 1.https://github.com/devovh/turtle-core/releases/tag/Patch's
 
-Client (The most suitable and fully functional client for this source is):
+Client 1.17.1 (The most suitable and fully functional client for this source is):
 
 1.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_client_fixed.part1.rar
 
@@ -23,3 +23,11 @@ Client (The most suitable and fully functional client for this source is):
 4.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_client_fixed.part4.rar
 
 5.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_client_fixed.part5.rar
+
+Repack New 1.17.1:
+
+1.https://github.com/devovh/turtle-core/releases/download/Patch's/Release_Repack_win_x64_New.part1.rar
+
+2.https://github.com/devovh/turtle-core/releases/download/Patch's/Release_Repack_win_x64_New.part2.rar
+
+3.https://github.com/devovh/turtle-core/releases/download/Patch's/Release_Repack_win_x64_New.part3.rar
