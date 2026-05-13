@@ -31,3 +31,7 @@ Repack New 1.17.1:
 2.https://github.com/devovh/turtle-core/releases/download/Patch's/Release_Repack_win_x64_New.part2.rar
 
 3.https://github.com/devovh/turtle-core/releases/download/Patch's/Release_Repack_win_x64_New.part3.rar
+
+Fix Crash character_inventory_copy:
+
+1.https://github.com/devovh/turtle-core/releases/download/Patch's/character_inventory_copy_fix_crash_characters_database.rar
