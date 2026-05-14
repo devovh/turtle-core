@@ -14,15 +14,15 @@ Misc (Client and Patch's):
 
 Client 1.17.1 (The most suitable and fully functional client for this source is):
 
-1.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_client_fixed_clean.part1.rar
+1.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_fixed_clean.part1.rar
 
-2.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_client_fixed_clean.part2.rar
+2.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_fixed_clean.part2.rar
 
-3.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_client_fixed_clean.part3.rar
+3.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_fixed_clean.part3.rar
 
-4.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_client_fixed_clean.part4.rar
+4.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_fixed_clean.part4.rar
 
-5.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_client_fixed_clean.part5.rar
+5.https://github.com/devovh/turtle-core/releases/download/Patch's/twmoa_1171_fixed_clean.part5.rar
 
 Repack New 1.17.1:
 
